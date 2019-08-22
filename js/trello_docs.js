@@ -126,7 +126,7 @@ var getBoard=function(board){
 			var member=_.find(board.members, function(m) {
 				return m.id==id;
 			});
-			return member.name;
+			return member.initials;
 		});// iterate on members
 	});//iterate on cards
 
